@@ -22,6 +22,7 @@
       }
     }
   }
+
   nav {
     display: block;
     text-align: center;
@@ -66,24 +67,25 @@
         width: 100%;
         text-align: center;
         opacity: 0;
+        // -webkit-transition: all 0.3s ease-out;
         transition: all 0.3s ease-out;
       }
 
       &:first-child {
-        &::after {
+        &:after {
           content: 'HOME';
         }
       }
     }
 
     a.about-link {
-      &::after {
+      &:after {
         content: 'ABOUT';
       }
     }
 
     a.contact-link {
-      &::after {
+      &:after {
         content: 'CONTACT';
       }
     }
@@ -112,9 +114,12 @@
         font-size: 15px;
         line-height: 16px;
 
-        &:hover svg {
-          color: #ffd700;
-        }
+        // &:hover svg {
+        //   color: #ffd700;
+        // }
+      }
+      &:hover {
+        color: #ffd700;
       }
     }
   }
