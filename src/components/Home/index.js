@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import LogoTitle from '../../assets/images/logo-s.png';
+import Logo from './Logo';
 import AnimatedLetters from '../AnimatedLetters';
 import './index.scss';
 
@@ -58,6 +59,7 @@ const Home = () => {
           Contact me
         </Link>
       </div>
+      <Logo />
     </div>
   );
 };
