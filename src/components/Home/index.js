@@ -1,8 +1,8 @@
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import LogoTitle from '../../assets/images/logo-s.png';
-import './index.scss';
-import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
+import './index.scss';
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
@@ -13,15 +13,23 @@ const Home = () => {
 
   // useEffect(() => {
   //   return setTimeout(() => {
-  //     setLetterClass('text-anime-hover');
-  //   }, 4000);
-  // }, []);
-
-  // useEffect(() => {
-  //   return setTimeout(() => {
   //     setLetterClass('text-animate-hover');
   //   }, 4000);
   // });
+
+  useEffect(() => {
+    // console.log('s');
+    //   return setTimeout(() => {
+    setTimeout(() => {
+      setLetterClass('text-animate-hover');
+    }, 4000);
+  }, []);
+
+  // function delayedFunction() {
+  //   console.log('Delayed function executed after 2 seconds');
+  // }
+
+  // setTimeout(delayedFunction, 2000);
 
   return (
     <div className="container home-page">
