@@ -29,7 +29,7 @@ const Sidebar = () => {
           exact="true"
           activeclassname="active"
           to="/contact"
-          classname="content-link"
+          className="content-link"
         >
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
         </NavLink>
