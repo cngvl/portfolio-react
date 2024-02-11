@@ -12,25 +12,15 @@ const Home = () => {
   const jobString = 'Web Developer.';
   const jobArray = jobString.split('');
 
-  // useEffect(() => {
-  //   return setTimeout(() => {
-  //     setLetterClass('text-animate-hover');
-  //   }, 4000);
-  // });
-
   useEffect(() => {
-    // console.log('s');
-    //   return setTimeout(() => {
-    setTimeout(() => {
+    let timeoutId = setTimeout(() => {
       setLetterClass('text-animate-hover');
     }, 4000);
+
+    return () => {
+      clearTimeout(timeoutId);
+    };
   }, []);
-
-  // function delayedFunction() {
-  //   console.log('Delayed function executed after 2 seconds');
-  // }
-
-  // setTimeout(delayedFunction, 2000);
 
   return (
     <div className="container home-page">
