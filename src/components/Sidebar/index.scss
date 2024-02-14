@@ -1,6 +1,6 @@
 .nav-bar {
   background: #181818;
-  width: 60px;
+  width: 70px;
   height: 100%;
   position: absolute;
   top: 0;
@@ -84,9 +84,9 @@
       }
     }
 
-    a.contact-link {
+    a.portfolio-link {
       &:after {
-        content: 'CONTACT';
+        content: 'PORTFOLIO';
       }
     }
 
