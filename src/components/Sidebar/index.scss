@@ -90,6 +90,18 @@
       }
     }
 
+    a.work-link {
+      &:after {
+        content: 'WORK';
+      }
+    }
+
+    a.education-link {
+      &:after {
+        content: 'EDUCATION';
+      }
+    }
+
     a.active {
       svg {
         color: #ffd700;

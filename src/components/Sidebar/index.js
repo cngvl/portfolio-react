@@ -1,23 +1,18 @@
 import './index.scss';
-import { Link, NavLink } from 'react-router-dom';
-import LogoS from '../../assets/images/logo-s.png';
-import LogoSubtitle from '../../assets/images/logo_sub.png';
+import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  faEnvelope,
   faHome,
   faUser,
   faFolder,
+  faSchool,
+  faMoneyBill,
 } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 
 const Sidebar = () => {
   return (
     <div className="nav-bar">
-      <Link className="logo" to="/">
-        <img src={LogoS} alt="" />
-        <img className="sub-logo" src={LogoSubtitle} alt="" />
-      </Link>
       <nav>
         <NavLink exact="true" activeclassname="active" to="/">
           <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
@@ -38,6 +33,22 @@ const Sidebar = () => {
         >
           <FontAwesomeIcon icon={faFolder} color="#4d4d4e" />
         </NavLink>
+        <NavLink
+          exact="true"
+          activeclassname="active"
+          className="work-link"
+          to="/work"
+        >
+          <FontAwesomeIcon icon={faMoneyBill} color="#4d4d4e" />
+        </NavLink>
+        <NavLink
+          exact="true"
+          activeclassname="active"
+          className="education-link"
+          to="/education"
+        >
+          <FontAwesomeIcon icon={faSchool} color="#4d4d4e" />
+        </NavLink>
       </nav>
       <ul>
         <li>
@@ -46,10 +57,10 @@ const Sidebar = () => {
             rel="noreferrer"
             target="_blank"
           >
-            <FontAwesomeIcon icon={faLinkedinIn} />
+            <FontAwesomeIcon icon={faLinkedinIn} color="#4d4d4e" />
           </a>
           <a href="https://github.com/cngvl" rel="noreferrer" target="_blank">
-            <FontAwesomeIcon icon={faGithub} />
+            <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
           </a>
         </li>
       </ul>
