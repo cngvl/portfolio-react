@@ -46,7 +46,7 @@ const Home = () => {
               idx={22}
             />
           </h1>
-          <h2>Jnr. Software Engineer / Science Content Specialist</h2>
+          <h2>Jnr. Software Engineer / Science Content Specialist / Barista</h2>
           <Link to="/contact" className="flat-button">
             Contact me
           </Link>
@@ -59,4 +59,3 @@ const Home = () => {
 };
 
 export default Home;
-// 3300
