@@ -39,9 +39,16 @@ const About = () => {
               letterClass={letterClass}
             />
           </h1>
-          <p>Example p text 1 </p>
-          <p>Example p text 2 </p>
-          <p>Example p text 3 </p>
+          <p>
+            I'm a grad from Le Wagon's Web Development course, fueled by a
+            passion for technology and healthcare, I hope use my skills to make
+            a meaningful impact on people's lives.
+          </p>
+          <p>
+            I'm a believer in the power of small, consistent steps to
+            continually improve and refine my abilities. Whether it's coding,
+            problem-solving, or even making gym gains.
+          </p>
         </div>
 
         <div className="stage-cube-cont">
