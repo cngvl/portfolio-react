@@ -1,6 +1,7 @@
 import './index.scss';
 import AnimatedLetters from '../AnimatedLetters';
 import { useEffect, useState } from 'react';
+import Project from './Project';
 
 const Portfolio = () => {
   const portfolioArray = 'Portfolio'.split('');
@@ -19,13 +20,18 @@ const Portfolio = () => {
   return (
     <>
       <div className="container portfolio-page">
-        <h1>
-          <AnimatedLetters
-            strArray={portfolioArray}
-            idx={15}
-            letterClass={letterClass}
-          />
-        </h1>
+        <div className="text-zone">
+          <h1>
+            <AnimatedLetters
+              strArray={portfolioArray}
+              idx={15}
+              letterClass={letterClass}
+            />
+          </h1>
+          <div className="project-container">
+            <Project />
+          </div>
+        </div>
       </div>
     </>
   );
