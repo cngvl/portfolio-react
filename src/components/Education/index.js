@@ -19,13 +19,15 @@ const Education = () => {
   return (
     <>
       <div className="container portfolio-page">
-        <h1>
-          <AnimatedLetters
-            strArray={portfolioArray}
-            idx={15}
-            letterClass={letterClass}
-          />
-        </h1>
+        <div className="text-zone">
+          <h1>
+            <AnimatedLetters
+              strArray={portfolioArray}
+              idx={15}
+              letterClass={letterClass}
+            />
+          </h1>
+        </div>
       </div>
     </>
   );
