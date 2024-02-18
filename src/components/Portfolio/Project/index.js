@@ -16,7 +16,7 @@ const Project = ({
           className="project-preview"
         />
         <h2>{ProjectTitle}</h2>
-        <div className="project-stack"></div>
+        <p>Stack used: {ProjectStack}</p>
         <p>{ProjectDescription}</p>
         <a href={ProjectLink} target="_blank" rel="noreferrer">
           Visit Project
