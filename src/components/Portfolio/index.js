@@ -33,33 +33,32 @@ const Portfolio = () => {
         <div className="project-container columns">
           <Project
             ProjectTitle={'MelbParkFinder'}
-            ProjectStack={[
-              'MapBox GL JS',
-              'Stimulus',
-              'Javascript',
-              'Ruby on Rails',
-              'Tailwind',
-              'Heroku',
-              'Flowbite',
-            ]}
-            ProjectDescription={'The quick brown fox jumps over the lazy dog'}
+            ProjectStack={
+              'MapBox GL JS, Stimulus, Javascript, Ruby on Rails, Tailwind, Heroku, Flowbite'
+            }
+            ProjectDescription={
+              'Designed an app to find available on-street parking in Melbourne CBD in real time. Using City of Melbourne’s database API, MapBox GL JS, Ruby on Rails and Google Maps to display the latest data.'
+            }
             ProjectPreview={PlaceHolderImage}
           />
           <Project
             ProjectTitle={'PhraseTracker Discord Bot'}
             ProjectPreview={PlaceHolderImage}
+            ProjectStack={'Javascript, Node.js, Discord.js'}
           />
           <Project
             ProjectTitle={'React Portfolio'}
             ProjectPreview={PlaceHolderImage}
+            ProjectStack={'HTML, CSS, React'}
           />
           <Project
             ProjectTitle={'WeatherScheduler'}
-            ProjectStack={('Python', 'Twilio')}
             ProjectPreview={PlaceHolderImage}
+            ProjectStack={('Python', 'Twilio')}
           />
           <Project
             ProjectTitle={'PDF Merger'}
+            ProjectStack={'Python, Shell Scripting'}
             ProjectPreview={PlaceHolderImage}
           />
         </div>
