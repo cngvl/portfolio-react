@@ -1,40 +1,5 @@
-.portfolio-header {
-  h1 {
-    left: 120px;
-    top: 40px;
-    font-size: 53px;
-    font-family: 'Coolvetica';
-    color: #ffd700;
-    font-weight: 400;
-    position: relative;
-    // margin-bottom: 40px;
-
-    &::before {
-      content: '<h1>';
-      font-family: 'La Belle Aurore';
-      font-size: 18px;
-      position: absolute;
-      margin-top: -10px;
-      left: -10px;
-      opacity: 0.6;
-      line-height: 18px;
-    }
-
-    &::after {
-      content: '<h1/>';
-      font-family: 'La Belle Aurore';
-      font-size: 18px;
-      line-height: 18px;
-      position: absolute;
-      margin-left: 20px;
-      left: -30px;
-      bottom: -20px;
-      opacity: 0.6;
-    }
-  }
-}
-
 .project-container {
+  // h1 {
   font-family: 'Coolvetica';
   color: #ffd700;
   position: relative;
@@ -66,6 +31,7 @@
     bottom: -20px;
     opacity: 0.6;
   }
+  // }
 }
 
 .columns {
