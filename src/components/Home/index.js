@@ -54,7 +54,7 @@ const Home = () => {
           </a>
         </div>
       </div>
-      <Loader type="pacman" />
+      <Loader type="ball-rotate" />
     </>
   );
 };
