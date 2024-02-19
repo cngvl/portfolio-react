@@ -49,6 +49,7 @@ const About = () => {
             continually improve and refine my abilities. Whether it's coding,
             problem-solving, or even making gym gains.
           </p>
+          {/* Need to add Tech Stack */}
         </div>
 
         <div className="stage-cube-cont">
@@ -74,7 +75,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <Loader type="pacman" />
+      <Loader type="ball-triangle-path" />
     </>
   );
 };
