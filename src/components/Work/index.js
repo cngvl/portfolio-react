@@ -8,6 +8,7 @@ const Work = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
 
   useEffect(() => {
+    // ????
     let timeoutId = setTimeout(() => {
       setLetterClass('text-animate-hover');
     }, 3000);
