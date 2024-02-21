@@ -34,11 +34,17 @@ const Education = () => {
             schoolInstitute={'Le Wagon'}
             schoolDate={'Jan 2023 - Mar 2023'}
             schoolCertification={'Web Development Diploma'}
+            schoolDescription={
+              'Pitched, designed and deployed a project in a team of four which can seen on my Project section!'
+            }
           />
           <School
             schoolInstitute={'Monash University'}
             schoolDate={'Feb 2017 - Jan 2021'}
-            schoolCertification={'Bachelor of Science (Honours) (BScHons)'}
+            schoolCertification={'Bachelor of Science (Honours) (BSc Hons)'}
+            schoolDescription={
+              'Wrote a thesis on Achilles Tendinopathy and graduated with High Disctinction grade'
+            }
           />
         </div>
       </div>
