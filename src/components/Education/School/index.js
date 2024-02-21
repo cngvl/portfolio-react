@@ -10,7 +10,9 @@ const School = ({
     <div className="schoolBlock">
       <h2>{schoolInstitute}</h2>
       <h3>{schoolCertification}</h3>
-      <p>{schoolDate}</p>
+      <p>
+        <b>{schoolDate}</b>
+      </p>
       <p>{schoolDescription}</p>
     </div>
   );
