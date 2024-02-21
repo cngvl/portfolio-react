@@ -1,37 +1,12 @@
 .project-container {
-  // h1 {
   font-family: 'Coolvetica';
   color: #ffd700;
-  position: relative;
+  position: absolute;
   left: 10px;
-  width: 90%;
-  margin-left: 110px;
-  // margin-right: 50px;
-  border: 1px dashed blue;
-  margin-top: 100px;
-
-  &::before {
-    content: '<ul>';
-    font-family: 'La Belle Aurore';
-    font-size: 18px;
-    position: absolute;
-    margin-top: -10px;
-    left: -10px;
-    opacity: 0.6;
-    line-height: 18px;
-  }
-  &::after {
-    content: '<ul/>';
-    font-family: 'La Belle Aurore';
-    font-size: 18px;
-    line-height: 18px;
-    position: absolute;
-    margin-left: 20px;
-    left: -30px;
-    bottom: -20px;
-    opacity: 0.6;
-  }
-  // }
+  width: 85%;
+  margin-left: 100px;
+  // border: 1px dashed blue;
+  margin-top: 50px;
 }
 
 .columns {
@@ -41,6 +16,6 @@
 
 .column {
   width: 45%; /* Each column takes up half of the container width */
-  // box-sizing: border-box; /* Include padding and border in the width */
+  box-sizing: border-box; /* Include padding and border in the width */
   // padding: 8px; /* Adjust padding as needed */
 }
