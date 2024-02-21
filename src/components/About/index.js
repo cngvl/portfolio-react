@@ -50,7 +50,7 @@ const About = () => {
             problem-solving, or even making gym gains.
           </p>
           {/* Need to add Tech Stack */}
-          <p>My Tech stack: Python, Ruby on Rails, JavaScript </p>
+          {/* <p>My Tech stack: Python, Ruby on Rails, JavaScript </p> */}
         </div>
 
         <div className="stage-cube-cont">
