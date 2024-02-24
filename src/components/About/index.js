@@ -13,10 +13,8 @@ import {
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const About = () => {
-  // const aboutMeString = 'About Me';
   const aboutMeArray = 'About Me'.split('');
   const [letterClass, setLetterClass] = useState('text-animate');
-  // console.log(aboutMeArray);
 
   useEffect(() => {
     let timeoutId = setTimeout(() => {
@@ -45,12 +43,11 @@ const About = () => {
             a meaningful impact on people's lives.
           </p>
           <p>
-            I'm a believer in the power of small, consistent steps to
+            I'm a huge believer in the power of small, consistent steps to
             continually improve and refine my abilities. Whether it's coding,
-            problem-solving, or even making gym gains.
+            reading, or even making gym gains, I try my best to keep consistent
+            my habits.
           </p>
-          {/* Need to add Tech Stack */}
-          {/* <p>My Tech stack: Python, Ruby on Rails, JavaScript </p> */}
         </div>
 
         <div className="stage-cube-cont">
