@@ -35,7 +35,7 @@ const Education = () => {
             schoolDate={'Jan 2023 - Mar 2023'}
             schoolCertification={'Web Development Diploma'}
             schoolDescription={
-              'Pitched, designed and deployed a project in a team of four which can seen on my Project section!'
+              'Pitched, designed and deployed a project ( Melbourne Park Finder ) in a team of four which can seen on my Project section!'
             }
           />
           <School
