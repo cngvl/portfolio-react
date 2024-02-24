@@ -9,10 +9,7 @@ const Layout = () => {
       <div className="page">
         <div className="tags top-tags">&lt;body&gt;</div>
         <Outlet />
-        <div className="tags bottom-tags">
-          &lt;/body&gt;
-          {/* <br /> */}
-        </div>
+        <div className="tags bottom-tags">&lt;/body&gt;</div>
       </div>
     </div>
   );
