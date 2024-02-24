@@ -1,5 +1,5 @@
 .project-block {
-  border: 1px dashed red;
+  border: 1px solid red;
   margin-bottom: 10px;
   margin-left: auto;
   margin-right: auto;
@@ -18,10 +18,14 @@
   }
 
   p {
-    font-style: 13px;
+    font-size: 12px;
     color: #fff;
     font-family: sans-serif;
     font-weight: 300;
     min-width: fit-content;
+  }
+
+  &:hover {
+    border: 1px #fff solid;
   }
 }
