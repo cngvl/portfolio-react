@@ -43,7 +43,7 @@ const Education = () => {
             schoolDate={'Feb 2017 - Jan 2021'}
             schoolCertification={'Bachelor of Science (Honours) (BSc Hons)'}
             schoolDescription={
-              'Wrote a thesis on Achilles Tendinopathy and graduated with High Disctinction grade'
+              'Wrote a thesis on Achilles Tendinopathy and graduated with High Disctinction grade. Majored in Physiology and Developmental Biology'
             }
           />
         </div>
