@@ -1,7 +1,7 @@
 {
   "name": "portfolio-react",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://cngvl.github.io/portfolio-react",
   "dependencies": {
     "@emailjs/browser": "^3.12.1",
