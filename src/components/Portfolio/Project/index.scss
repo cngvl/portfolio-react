@@ -1,28 +1,53 @@
 .project-block {
   border: 1px solid #265d89;
-  margin-bottom: 10px;
+  margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
+  // margin: 10px auto;
   border-radius: 10px;
   transition: transform 0.3s ease;
   box-shadow: 0 0 5px rgba(2, 44, 67, 0.5);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 410px; /* Example height for the container */
+  transition: background-color 0.3s ease;
 
   .project-preview {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    border: dashed 1px rgba(0, 0, 0, 0.3);
-    margin-top: 10px;
+    flex: 0 0 auto; /* Prevent the image from expanding beyond its content */
+    max-height: 50%; /* Set a maximum height for the image */
+    max-width: 50%; /* Set a maximum height for the image */
+    margin: auto;
+    padding-top: 10px;
+    overflow: hidden; /* Hide any overflow beyond the container */
+    display: flex; /* Ensure image takes up full width */
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+
+    img {
+      max-width: 100%;
+      max-height: 100%;
+      height: auto;
+    }
   }
 
   .project-text {
     padding: 10px;
+    // position: absolute;
+    bottom: 0;
   }
 
   p {
-    font-size: 12px;
+    font-size: 13px;
     color: #fff;
+    font-family: sans-serif;
+    font-weight: 300;
+    min-width: fit-content;
+  }
+
+  a {
+    font-size: 13px;
+    color: #ffd700;
     font-family: sans-serif;
     font-weight: 300;
     min-width: fit-content;
@@ -31,5 +56,6 @@
   &:hover {
     transform: scale(1.01);
     box-shadow: 0 0 20px rgba(2, 44, 67, 0.5);
+    background-color: #265d89;
   }
 }

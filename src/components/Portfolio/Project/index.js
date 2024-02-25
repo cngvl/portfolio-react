@@ -5,23 +5,30 @@ const Project = ({
   ProjectStack,
   ProjectPreview,
   ProjectDescription,
+  ProjectLive,
   ProjectLink,
 }) => {
   return (
     <>
       <div className="project-block column">
-        <img
-          src={ProjectPreview}
-          alt="placeholder"
-          className="project-preview"
-        />
+        <div className="project-preview">
+          <img src={ProjectPreview} alt="placeholder" />
+        </div>
+
         <div className="project-text">
           <h2>{ProjectTitle}</h2>
           <p>Stack used: {ProjectStack}</p>
           <p>{ProjectDescription}</p>
-          <a href={ProjectLink} target="_blank" rel="noreferrer">
-            Visit Project
-          </a>
+
+          {ProjectLive ? (
+            <a href={ProjectLink} target="_blank" rel="noreferrer">
+              Visit Live Project
+            </a>
+          ) : (
+            <a href={ProjectLink} target="_blank" rel="noreferrer">
+              View GitHub
+            </a>
+          )}
         </div>
       </div>
     </>
