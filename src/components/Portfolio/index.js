@@ -8,6 +8,7 @@ import WeatherScheduler from '../../assets/images/WeatherScheduler.jpg';
 import PDFMerge from '../../assets/images/PDFmerge.png';
 import PhraseTracker from '../../assets/images/PhraseTracker.png';
 import ReactPortfolio from '../../assets/images/ReactPortfolio.png';
+import DiscordPy from '../../assets/images/DiscordPy.png';
 
 const Portfolio = () => {
   const portfolioArray = 'Portfolio'.split('');
@@ -83,6 +84,15 @@ const Portfolio = () => {
               "A quick python script I made because I found myself often using online PDF editors which seemed super sketchy, especially when I was working with documents containing sensitive information. Works completely offline so I won't need to worry about my info being stolen. I plan to add additional features such as removing and reordering files soon!"
             }
             ProjectLink={'https://github.com/cngvl/pdf-merger'}
+          />
+          <Project
+            ProjectTitle={'Petrol Scraper - Python Discord Bot '}
+            ProjectStack={'Python, Geocoding API, Discord.py'}
+            ProjectPreview={DiscordPy}
+            ProjectDescription={
+              "This is another discord bot I made that can scrape for petrol prices for a given postcode. I opted to build another discord bot as I just didn't want to deal with the hassle of setting up additionals service like Twilio which I used in the past. This discord bot streamlines processes as it's much more convenient for me to add features to this bot whenever I wish, without having to juggle multiple apps and services to provide me all the benefits."
+            }
+            ProjectLink={'https://github.com/cngvl/discord-pybot'}
           />
         </div>
       </div>
