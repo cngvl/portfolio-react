@@ -2,7 +2,7 @@ import './index.scss';
 import AnimatedLetters from '../AnimatedLetters';
 import { useEffect, useState } from 'react';
 import Project from './Project';
-import PlaceHolderImage from '../../assets/images/placeholder-image.png';
+// import PlaceHolderImage from '../../assets/images/placeholder-image.png';
 import MelbourneParkFinder from '../../assets/images/MelbParkFinder.png';
 import WeatherScheduler from '../../assets/images/WeatherScheduler.jpg';
 import PDFMerge from '../../assets/images/PDFmerge.png';
