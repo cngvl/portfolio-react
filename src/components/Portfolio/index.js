@@ -50,22 +50,13 @@ const Portfolio = () => {
             ProjectLive={'x'}
           />
           <Project
-            ProjectTitle={'PhraseTracker Discord Bot'}
-            ProjectPreview={PhraseTracker}
-            ProjectStack={'Javascript, Node.js, Discord.js'}
+            ProjectTitle={'Petrol Scraper - Python Discord Bot '}
+            ProjectStack={'Python, Geocoding API, Discord.py'}
+            ProjectPreview={DiscordPy}
             ProjectDescription={
-              'This was a small project I wanted to make for my friends to use on our Discord channel. It works by calling the command with a phrase to look out for and a target user ( can also be randomised ). After the phrase has been mentioned a certain amount of times, the bot will generate a playful message.'
+              "This is another discord bot I made that can scrape for petrol prices for a given postcode. I opted to build another discord bot as I just didn't want to deal with the hassle of setting up additionals service like Twilio which I used in the past. This discord bot streamlines processes as it's much more convenient for me to add features to this bot whenever I wish, without having to juggle multiple apps and services to provide me all the benefits."
             }
-            ProjectLink={'https://github.com/cngvl/discord-bot-phrase-tracker'}
-          />
-          <Project
-            ProjectTitle={'Personal Portfolio'}
-            ProjectPreview={ReactPortfolio}
-            ProjectStack={'HTML, CSS, React'}
-            ProjectDescription={
-              "This is the Portfolio you're looking at right now. What else is there to say here."
-            }
-            ProjectLink={'https://github.com/cngvl/portfolio-react'}
+            ProjectLink={'https://github.com/cngvl/discord-pybot'}
           />
           <Project
             ProjectTitle={'Weather Scheduler'}
@@ -86,13 +77,22 @@ const Portfolio = () => {
             ProjectLink={'https://github.com/cngvl/pdf-merger'}
           />
           <Project
-            ProjectTitle={'Petrol Scraper - Python Discord Bot '}
-            ProjectStack={'Python, Geocoding API, Discord.py'}
-            ProjectPreview={DiscordPy}
+            ProjectTitle={'PhraseTracker Discord Bot'}
+            ProjectPreview={PhraseTracker}
+            ProjectStack={'Javascript, Node.js, Discord.js'}
             ProjectDescription={
-              "This is another discord bot I made that can scrape for petrol prices for a given postcode. I opted to build another discord bot as I just didn't want to deal with the hassle of setting up additionals service like Twilio which I used in the past. This discord bot streamlines processes as it's much more convenient for me to add features to this bot whenever I wish, without having to juggle multiple apps and services to provide me all the benefits."
+              'This was a small project I wanted to make for my friends to use on our Discord channel. It works by calling the command with a phrase to look out for and a target user ( can also be randomised ). After the phrase has been mentioned a certain amount of times, the bot will generate a playful message.'
             }
-            ProjectLink={'https://github.com/cngvl/discord-pybot'}
+            ProjectLink={'https://github.com/cngvl/discord-bot-phrase-tracker'}
+          />
+          <Project
+            ProjectTitle={'Personal Portfolio'}
+            ProjectPreview={ReactPortfolio}
+            ProjectStack={'HTML, CSS, React'}
+            ProjectDescription={
+              "This is the Portfolio you're looking at right now. What else is there to say here."
+            }
+            ProjectLink={'https://github.com/cngvl/portfolio-react'}
           />
         </div>
       </div>
