@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.cee99f3b.css",
+    "main.css": "/portfolio-react/static/css/main.9e8aebd0.css",
     "main.js": "/portfolio-react/static/js/main.0e4137ce.js",
     "static/js/592.de8d79b8.chunk.js": "/portfolio-react/static/js/592.de8d79b8.chunk.js",
     "static/media/WeatherScheduler.jpg": "/portfolio-react/static/media/WeatherScheduler.3ab685ff99c352a56409.jpg",
@@ -12,12 +12,12 @@
     "static/media/LaBelleAurore.woff2": "/portfolio-react/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/CoolveticaRg-Regular.woff2": "/portfolio-react/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/portfolio-react/index.html",
-    "main.cee99f3b.css.map": "/portfolio-react/static/css/main.cee99f3b.css.map",
+    "main.9e8aebd0.css.map": "/portfolio-react/static/css/main.9e8aebd0.css.map",
     "main.0e4137ce.js.map": "/portfolio-react/static/js/main.0e4137ce.js.map",
     "592.de8d79b8.chunk.js.map": "/portfolio-react/static/js/592.de8d79b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cee99f3b.css",
+    "static/css/main.9e8aebd0.css",
     "static/js/main.0e4137ce.js"
   ]
 }
