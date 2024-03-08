@@ -27,6 +27,14 @@
   }
 }
 
+@media (max-width: 768px) {
+  .tags,
+  .top-tags,
+  .bottom-tags {
+    display: none;
+  }
+}
+
 .container {
   width: 100%;
   will-change: contents;
