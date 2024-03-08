@@ -6,6 +6,10 @@
   margin-left: 0;
   position: absolute;
   right: 0;
+
+  @media (max-width: 768px) {
+    right: 20%;
+  }
 }
 
 .cubespinner {
@@ -47,6 +51,37 @@
   }
   .face6 {
     transform: rotateX(-90deg) translateZ(100px);
+  }
+
+  @media (max-width: 768px) {
+    div {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      border: 1px solid #ccc;
+      background: rgba(255, 255, 255, 0.4);
+      font-size: 50px;
+      box-shadow: 0 0 20px 0 lightyellow;
+    }
+
+    .face1 {
+      transform: translateZ(50px);
+    }
+    .face2 {
+      transform: rotateY(90deg) translateZ(50px);
+    }
+    .face3 {
+      transform: rotateY(90deg) rotateX(90deg) translateZ(50px);
+    }
+    .face4 {
+      transform: rotateY(180deg) rotateZ(90deg) translateZ(50px);
+    }
+    .face5 {
+      transform: rotateY(-90deg) rotateZ(90deg) translateZ(50px);
+    }
+    .face6 {
+      transform: rotateX(-90deg) translateZ(50px);
+    }
   }
 }
 
