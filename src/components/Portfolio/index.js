@@ -81,7 +81,7 @@ const Portfolio = () => {
             ProjectStack={'Python, Shell Scripting'}
             ProjectPreview={PDFMerge}
             ProjectDescription={
-              "A quick python script I made because I found myself often using online PDF editors which seemed super sketchy, especially when I was working with documents containing sensitive information. Works completely offline so I won't need to worry about my info being stolen. I plan to add additional features such as removing and reordering files soon!"
+              'A quick python script I made because I found myself often using online PDF editors which seemed super sketchy, especially when I was working with documents containing sensitive information. I plan to add additional features such as removing and reordering files soon!'
             }
             ProjectLink={'https://github.com/cngvl/pdf-merger'}
           />
