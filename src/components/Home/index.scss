@@ -4,8 +4,9 @@
     left: 10%;
     top: 50%;
     transform: translateY(-50%);
-    width: 65%;
+    // width: 65%;
     max-height: 90%;
+    // border: 1px blue dashed;
   }
 
   h1 {
@@ -16,7 +17,14 @@
     font-family: 'Coolvetica';
     font-weight: 400;
 
-    // @media (min-width: 768px) {
+    @media (max-width: 670px) {
+      width: 250px;
+    }
+
+    @media (min-width: 670px) {
+      width: 670px;
+    }
+
     &:before {
       content: '<h1>';
       font-family: 'La Belle Aurore';
@@ -39,7 +47,6 @@
       animation: fadeIn 1s 1.7s backwards;
       opacity: 0.6;
     }
-    // }
   }
 
   h2 {
