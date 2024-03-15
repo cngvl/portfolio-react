@@ -11,7 +11,7 @@ const School = ({
       <h2>{schoolInstitute}</h2>
       <h3>{schoolCertification}</h3>
       <p>
-        <b>{schoolDate}</b>
+        {schoolDate}
       </p>
       <p>{schoolDescription}</p>
     </div>
