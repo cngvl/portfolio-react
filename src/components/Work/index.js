@@ -52,7 +52,7 @@ const Work = () => {
             jobCompany={'Nam Quang Tuition'}
             jobDate={'Feb 2017 - Dec 2022'}
             jobDescription={
-              'My biggest priority for teaching students was making sure they FULLY understood the content by developing their critical thinking and logical reasoning, rather than trying to mindlessly solve stacks of questions'
+              'My biggest priority for teaching students was making sure they FULLY understood the content by developing their critical thinking and logical reasoning, rather than trying to mindlessly solve stacks of questions.'
             }
           />
         </div>
