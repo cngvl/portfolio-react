@@ -46,7 +46,7 @@ const About = () => {
             I'm a huge believer in the power of small, consistent steps to
             continually improve and refine my abilities. Whether it's coding,
             reading, or even making gym gains, I try my best to keep consistent
-            my habits.
+            with my habits.
           </p>
         </div>
 
