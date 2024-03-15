@@ -1,5 +1,4 @@
 .schoolBlock {
-  // border: solid 1px blue;
   margin: 0px 110px;
   padding: 10px;
   animation: pulse 1s;
@@ -27,6 +26,7 @@
     letter-spacing: 3px;
     font-weight: 400;
     font-size: 11px;
+    margin-bottom: 0;
   }
 
   p {
@@ -36,5 +36,6 @@
     font-weight: 300;
     min-width: fit-content;
     // line-height: 5px;
+    margin-top: 0;
   }
 }
