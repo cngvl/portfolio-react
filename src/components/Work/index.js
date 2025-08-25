@@ -36,7 +36,7 @@ const Work = () => {
             jobCompany={'The Usual Joint'}
             jobDate={'Sept 2023 - Present'}
             jobDescription={
-              'I excel at spilling drinks and making silky smooth milk for coffee.'
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
             }
           />
           <Job
